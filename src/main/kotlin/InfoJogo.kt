@@ -1,6 +1,4 @@
-import com.google.gson.annotations.SerializedName
-
-class InfoJogo (val info:Jogo){
+class InfoJogo (val info:InfoApiShark){
 
 
     override fun toString(): String {

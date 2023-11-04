@@ -18,9 +18,9 @@ fun main(args: Array<String>) {
     val json = response.body();
     val gson = Gson();
 
-    val meuJogo = gson.fromJson(json, InfoJogo::class.java);
+    val meuInfoJogo = gson.fromJson(json, InfoJogo::class.java);
 
-    println(meuJogo);
+    println(meuInfoJogo);
 
 
 

@@ -28,7 +28,13 @@ fun main(args: Array<String>) {
 
     val meuInfoJogo = gson.fromJson(json, InfoJogo::class.java);
 
-    println(meuInfoJogo);
+    val meuJogo = Jogo(
+        meuInfoJogo.info.title,
+        meuInfoJogo.info.thumb
+    )
+
+
+    println(meuJogo);
 
 
 
